@@ -11,4 +11,7 @@ public class MockPrinter extends Printer {
         super.print(printThis);
         this.printerText = printThis;
     }
+    public void setPrinterText(String s){
+        this.printerText = s;
+    }
 }
